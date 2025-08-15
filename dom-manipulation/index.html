@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Quote Generator</title>
+  <style>
+    /* Lightweight styling so you can see structure clearly */
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    #quoteDisplay blockquote { margin: 1rem 0; padding: 1rem; border-left: 4px solid #999; background: #f7f7f7; }
+    .muted { color: #666; font-size: 0.9rem; }
+    .stack { display: grid; gap: 1rem; max-width: 720px; }
+    .row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+    .pill { padding: .35rem .7rem; border: 1px solid #ddd; border-radius: 999px; cursor: pointer; }
+    button, select, input { padding: .6rem .8rem; }
+    form { display: grid; gap: .5rem; }
+    .hr { height: 1px; background: #eee; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Dynamic Quote Generator</h1>
+
+  <!-- Required placeholders from the brief -->
+  <div id="quoteDisplay"></div>
+  <button id="newQuote">Show New Quote</button>
+
+  <!-- Everything else (filters, forms) will be injected via JS -->
+  <script src="script.js"></script>
+</body>
+</html>
