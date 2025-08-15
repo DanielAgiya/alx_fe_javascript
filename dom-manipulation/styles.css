@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#quoteDisplay p {
+  background: #f4f4f4;
+  padding: 10px;
+  border-left: 4px solid #333;
+}
+
+input, button {
+  margin: 5px 0;
+  padding: 8px;
+}
